@@ -1,13 +1,13 @@
 import React from "react";
 import {
   FlatList,
-  Picker,
   Platform,
   ScrollView,
   StyleSheet,
   Text,
   View,
 } from "react-native";
+import { Picker } from "@react-native-picker/picker";
 import { BigButton } from "../components/BigButton";
 import ModalSelector from "react-native-modal-selector";
 import withUnstated from "@airship/with-unstated";

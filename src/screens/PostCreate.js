@@ -3,7 +3,6 @@ import {
   Button,
   Modal,
   Text,
-  Picker,
   Platform,
   ScrollView,
   StyleSheet,
@@ -13,6 +12,7 @@ import {
   View,
   Keyboard,
 } from "react-native";
+import { Picker } from "@react-native-picker/picker";
 import * as ImagePicker from "expo-image-picker";
 import * as Permissions from "expo-permissions";
 import ModalSelector from "react-native-modal-selector";

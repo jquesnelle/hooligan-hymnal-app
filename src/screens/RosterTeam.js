@@ -2,14 +2,13 @@ import React from "react";
 import {
   FlatList,
   Image,
-  Picker,
   Platform,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from "react-native";
-
+import { Picker } from "@react-native-picker/picker";
 import withUnstated from "@airship/with-unstated";
 import GlobalDataContainer from "../containers/GlobalDataContainer";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
